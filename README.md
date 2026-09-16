@@ -173,14 +173,3 @@ jobs:
 
 ---
 
-## 6. Testing It Out (Teaching Demonstration)
-
-1. **Verify locally first**
-   * *Local terminal*: Run your Makefile commands locally (`make all` and `make test`) to make sure everything compiles. You should see:
-     `✅ All calculator test cases passed successfully!`
-2. **Push code to GitHub**
-   * *Git commit & push*: Commit all files and push them to `main`.
-3. **Observe the green build**
-   * *GitHub UI*: Go to the **Actions** tab on your GitHub repository. Click on **C Calculator CI Pipeline** to see `gcc` compile your code and execute `make test` live.
-4. **Demonstrate a failing CI build**
-   * *Student Challenge*: Change `add()` in `src/calculator.c` to return `a - b` instead of `a + b`, then push to GitHub. The workflow will fail on `assert(add(2.0, 3.0) == 5.0)` and turn red ❌.
