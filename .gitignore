@@ -1,0 +1,14 @@
+# Build binaries and executables
+calculator
+test_runner
+*.exe
+*.o
+*.out
+*.a
+*.so
+*.dylib
+
+# Visual Studio / IDE temporary files
+.vscode/
+.idea/
+*.swp
