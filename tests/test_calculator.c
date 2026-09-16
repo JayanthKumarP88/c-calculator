@@ -17,6 +17,6 @@ int main() {
     assert(divide(10.0, 2.0) == 5.0);
     assert(divide(5.0, 0.0) == 0.0); // Edge case: division by zero
 
-    printf("✅ All calculator test cases passed successfully!\n");
+    printf("All calculator test cases passed successfully!\n");
     return 0;
 }
